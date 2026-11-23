@@ -1,0 +1,92 @@
+\begin{thebibliography}{10}
+
+\bibitem{Haslak2021}
+Z.~P. Haslak, S.~Zareb, I.~Dogan, V.~Aviyente, and G.~Monard, ``Using atomic
+  charges to describe the pka of carboxylic acids,'' {\em Journal of Chemical
+  Information and Modeling}, vol.~61, no.~6, pp.~2733--2743, 2021.
+\newblock PMID: 34137248.
+
+\bibitem{Stivers1996}
+J.~T. Stivers, C.~Abeygunawardana, A.~S. Mildvan, G.~Hajipour, and C.~P.
+  Whitman, ``4-oxalocrotonate tautomerase: ph dependence of catalysis and pka
+  values of active site residues,'' {\em Biochemistry}, vol.~35, no.~3,
+  pp.~814--823, 1996.
+
+\bibitem{Caballero-Garcia2019}
+G.~Caballero-Garc\'{i}a, G.~Mondrag\'{o}n-Sol\'{o}rzano, R.~Torres-Cadena,
+  M.~D\'{i}az-Garc\'{i}a, J.~Sandoval-Lira, and J.~Barroso-Flores,
+  ``Calculation of vs,max and its use as a descriptor for the theoretical
+  calculation of pka values for carboxylic acids,'' {\em Molecules}, vol.~24,
+  no.~1, 2019.
+
+\bibitem{Lange2005}
+N.~A. Lange and J.~G. Speight, {\em Lange's Handbook of Chemistry}.
+\newblock New York, NY, USA: McGraw-Hill, 16th~ed., 2005.
+
+\bibitem{bib:sandovallira2020}
+J.~Sandoval-Lira, G.~Mondrag\'{o}n-Sol\'{o}rzano, L.~I. Lugo-Fuentes, and
+  J.~Barroso-Flores, ``Accurate estimation of pkb values for amino groups from
+  surface electrostatic potential (vs,min) calculations: The isoelectric points
+  of amino acids as a case study,'' {\em Journal of Chemical Information and
+  Modeling}, vol.~60, no.~3, pp.~1445--1452, 2020.
+
+\bibitem{Kiran2024}
+M.~Kiran, Z.~P. Haslak, H.~Ates, V.~Aviyente, and F.~A. Akin, ``Evaluation of
+  the pka's of quinazoline derivatives : Usage of quantum mechanical based
+  descriptors,'' {\em Journal of Molecular Structure}, vol.~1303, p.~137552,
+  2024.
+
+\bibitem{Nedyalkova2025}
+M.~Nedyalkova, D.~Heredia, J.~Barroso-Flores, and M.~Lattuada, ``Comparative
+  analysis of pka predictions for arsonic acids using density functional
+  theory-based and machine learning approaches,'' {\em ACS Omega}, vol.~10,
+  no.~3, pp.~3128--3140, 2025.
+
+\bibitem{Rathi2020}
+P.~C. Rathi, R.~F. Ludlow, and M.~L. Verdonk, ``Practical high-quality
+  electrostatic potential surfaces for drug discovery using a
+  graph-convolutional deep neural network,'' {\em Journal of Medicinal
+  Chemistry}, vol.~63, no.~16, pp.~8778--8790, 2020.
+\newblock PMID: 31553186.
+
+\bibitem{Li2024}
+X.~Li, H.~Zhong, H.~Yang, L.~Li, and Q.~Wang, ``High-throughput screening and
+  prediction of nucleophilicity of amines using machine learning and dft
+  calculations,'' {\em Journal of Chemical Information and Modeling}, vol.~64,
+  no.~16, pp.~6361--6368, 2024.
+\newblock PMID: 39116323.
+
+\bibitem{Simon2026}
+L.~Sim\'{o}n, ``pka predicting models trained with a tautomer-compatible graph
+  dataset with quantum chemical features,'' {\em Journal of Chemical
+  Information and Modeling}, vol.~66, pp.~6895--6909, 06 2026.
+
+\bibitem{Lazare2025}
+J.~Lazare, C.~Tebes-Stevens, E.~J. Weber, and L.~K. Shields, ``pka data-driven
+  insights into multiple linear regression hydrolysis qsars: Applicability to
+  perfluorinated alkyl esters,'' {\em Environmental Science and Technology},
+  vol.~59, pp.~11745--11755, 06 2025.
+
+\bibitem{Solano2024}
+J.~M. Solano-Altamirano, J.~M. Hern{\'a}ndez-P{\'e}rez, J.~Sandoval-Lira, and
+  J.~Barroso-Flores, ``{DensToolKit2}: A comprehensive open-source package for
+  analyzing the electron density and its derivative scalar and vector fields,''
+  {\em The Journal of Chemical Physics}, vol.~161, no.~23, p.~232501, 2024.
+
+\bibitem{g09}
+Gaussian 09, Revision B.01, M. J. Frisch, G. W. Trucks, H. B. Schlegel, G. E.
+  Scuseria, M. A. Robb, J. R. Cheeseman, G. Scalmani, V. Barone, B. Mennucci,
+  G. A. Petersson, H. Nakatsuji, M. Caricato, X. Li, H. P. Hratchian, A. F.
+  Izmaylov, J. Bloino, G. Zheng, J. L. Sonnenberg, M. Hada, M. Ehara, K.
+  Toyota, R. Fukuda, J. Hasegawa, M. Ishida, T. Nakajima, Y. Honda, O. Kitao,
+  H. Nakai, T. Vreven, Montgomery, {Jr.}, J. A., J. E. Peralta, F. Ogliaro, M.
+  Bearpark, J. J. Heyd, E. Brothers, K. N. Kudin, V. N. Staroverov, R.
+  Kobayashi, J. Normand, K. Raghavachari, A. Rendell, J. C. Burant, S. S.
+  Iyengar, J. Tomasi, M. Cossi, N. Rega, J. M. Millam, M. Klene, J. E. Knox, J.
+  B. Cross, V. Bakken, C. Adamo, J. Jaramillo, R. Gomperts, R. E. Stratmann, O.
+  Yazyev, A. J. Austin, R. Cammi, C. Pomelli, J. W. Ochterski, R. L. Martin, K.
+  Morokuma, V. G. Zakrzewski, G. A. Voth, P. Salvador, J. J. Dannenberg, S.
+  Dapprich, A. D. Daniels, Ö Farkas, J. B. Foresman, J. V. Ortiz, J.
+  Cioslowski and D. J. Fox, Gaussian Inc. Wallingford CT 2010.
+
+\end{thebibliography}
