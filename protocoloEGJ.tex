@@ -121,7 +121,7 @@
 	
 	%La predicci\'{o}n de los valores de $\mathrm{p}K_{\mathrm{a}}$ y $\mathrm{p}K_{\mathrm{b}}$ son cruciales para comprender la acidez y la basicidad de las mol\'{e}culas org\'{a}nicas, con aplicaciones en el descubrimiento de f\'{a}rmacos, ciencia de los materiales y qu\'{i}mica ambiental. 
 	
-	Dos de las grandes clasificaciones que existen de los compuestos qu\'{i}micos son en t\'{e}rminos de su acidez o basicidad en sus distintas formulaciones o aceptaciones. El impacto que tienen estas dos clasificaciones en los sistemas vivos es significativo, ya que a un determinado valor de pH ciertos grupos funcionales pueden ser protonados o desprotonados, cuyo fen\'{o}meno est\'{a} relacionado con la constante de  acidez $\mathrm{p}K_{\mathrm{a}}$ que influye, a su vez, en propiedades intr\'{i}nsecas de cada sustancia y cuantifica la fuerza del \'{a}cido en cuesti\'{o}n. En consecuencia, la predicci\'{o}n de dicho valor es deseable en \'{a}reas como la farmacolog\'{i}a para el desarrollo de nuevos f\'{a}rmacos, hasta la bioqu\'{i}mica computacional para el diseño de nuevas prote\'{i}nas.
+	Dos de las grandes clasificaciones que existen de los compuestos qu\'{i}micos son en t\'{e}rminos de su acidez o basicidad en sus distintas formulaciones o aceptaciones. El impacto que tienen estas dos clasificaciones en los sistemas vivos es significativo, ya que a un determinado valor de pH ciertos grupos funcionales pueden estar protonados o desprotonados, cuyo fen\'{o}meno est\'{a} relacionado con la constante de  acidez $\mathrm{p}K_{\mathrm{a}}$ que influye, a su vez, en propiedades intr\'{i}nsecas de cada sustancia y cuantifica la fuerza del \'{a}cido en cuesti\'{o}n. La predicci\'{o}n de dicho valor es ampliamente deseable en \'{a}reas como la farmacolog\'{i}a para el desarrollo de nuevos f\'{a}rmacos, o en la bioqu\'{i}mica computacional para el diseño de nuevas prote\'{i}nas.
 	Sin embargo, la determinaci\'{o}n experimental del $\mathrm{p}K_{\mathrm{a}}$ y $\mathrm{p}K_{\mathrm{b}}$, mediante t\'{e}cnicas como
 	potenciometr\'{i}a, conductimetr\'{i}a, electroforesis, HPLC, UV-vis o 
 	fluorometr\'{i}a proporcionan valores con baja precisi\'{o}n (solo las medidas realizadas mediante RMN estiman los valores de $\mathrm{p}K_{\mathrm{a}}$ con precisi\'{o}n cuando se aplica a amino\'{a}cidos) \cite{Haslak2021}.
@@ -129,11 +129,11 @@
 	Por ejemplo, Stivers \textit{et al.} \cite{Stivers1996} midieron valores de 
 	$\mathrm{p}K_{\mathrm{a}}$ de los residuos del sitio activo de la 4-oxalocrotonato tautomerasa
 	utilizando espectroscop\'{i}a de RMN $^{15}$N. 
-	No obstante, los autores reportaron que, para realizar esa medici\'{o}n, se requiere de cristales para un an\'{a}lisis subsecuente mediante cristalograf\'{i}a de rayos X. Desafortunadamente, existe un n\'{u}mero limitado de estructuras de prote\'{i}nas de membrana no soluble presentes en la literatura. Por lo tanto, la mala resoluci\'{o}n de los cristales y la falta de flexibilidad conformacional restringen las aplicaciones de cristalograf\'{i}a de rayos X y RMN para determinar el $\mathrm{p}K_{\mathrm{a}}$ experimentalmente.
+	No obstante, los autores reportaron que, para realizar esa medici\'{o}n, se requiere de cristales para un an\'{a}lisis subsecuente mediante cristalograf\'{i}a de rayos X. Desafortunadamente, existe un n\'{u}mero limitado de estructuras de prote\'{i}nas de membrana no soluble presentes en la literatura. Por lo tanto, la pobre resoluci\'{o}n de los cristales y la falta de flexibilidad conformacional restringen las aplicaciones de cristalograf\'{i}a de rayos X y RMN para determinar el $\mathrm{p}K_{\mathrm{a}}$ experimentalmente.
 	Respecto a la flexibilidad conformacional, \'{e}sta se debe a la existencia de m\'{u}ltiples 
 	especies tautom\'{e}ricas en la reacci\'{o}n general de protonaci\'{o}n-desprotonaci\'{o}n.
 	
-	En este contexto, el desarrollo de modelos predictivos para determinar el $\mathrm{p}K_{\mathrm{a}}$ resulta fundamental cuando la medici\'{o}n experimental es inviable. Por ello, estas herramientas permiten estimar dicha propiedad en mol\'{e}culas nuevas. En este sentido, el presente trabajo se propone diseñar metodolog\'{i}as te\'{o}ricas de bajo costo computacional que permitan calcular dichas constantes.
+	En este contexto, el desarrollo de modelos predictivos para determinar el $\mathrm{p}K_{\mathrm{a}}$ resulta fundamental cuando la medici\'{o}n experimental es inviable. Debido a que, estas herramientas permiten estimar dicha propiedad en mol\'{e}culas nuevas. En este sentido, en el presente trabajo se propone diseñar metodolog\'{i}as te\'{o}ricas de bajo costo computacional que permitan calcular dichas constantes.
 	
 	\clearpage
 	
@@ -148,7 +148,7 @@
 	 ha evolucionado a trav\'{e}s de diferentes enfoques con diferentes objetivos. A continuaci\'{o}n,  se muestra una revisi\'{o}n breve del estado del arte de los estudios realizados usando descriptores qu\'{i}micos.
 	
 	
-	En el año de 2019, Caballero-Garc\'{i}a \textit{et al.} \cite{Caballero-Garcia2019} publicaron en el que mejoraron la predicci\'{o}n de la acidez al proponer que el potencial electrost\'{a}tico superficial m\'{a}ximo ($V_{S,max}$) funciona como un descriptor local sensible para el prot\'{o}n \'{a}cido en \'{a}cidos carbox\'{i}licos. En su estudio, analizaron 30 mol\'{e}culas diferentes con valores experimentales de $\mathrm{p}K_{\mathrm{a}}$ reportados en \textit{Handbook of Chemistry} \cite{Lange2005}, encontrando el valor m\'{a}ximo del potencial electrost\'{a}tico sobre la isosuperficie de la densidad electr\'{o}nica a 0.001 au. Es decir, ellos usaron una isosuperficie de densidad y se calcul\'{o} sobre dicha superficie el potencial electrost\'{a}tico, para finalmente obtener el potencial electrost\'{a}tico superficial m\'{a}ximo $V_{S,max}$. Es importante mencionar que el enfoque de Caballero-Garc\'{i}a \textit{et al.} elimin\'{o} la necesidad de calcular la energ\'{i}a libre de solvataci\'{o}n, cuyo procedimiento requiere c\'{a}lculos de alta precisi\'{o}n. Por lo tanto, el modelo presentado por este grupo de investigaci\'{o}n se centr\'{o} en sistemas donde el sitio activo es un grupo hidroxilo, dejando abierta la interrogante sobre su aplicabilidad en bases o sistemas con hibridaciones distintas.
+	En el año de 2019, Caballero-Garc\'{i}a \textit{et al.} \cite{Caballero-Garcia2019} publicaron en el que mejoraron la predicci\'{o}n de la acidez al proponer que el potencial electrost\'{a}tico superficial m\'{a}ximo ($V_{S,max}$) funciona como un descriptor local sensible para el prot\'{o}n \'{a}cido en \'{a}cidos carbox\'{i}licos. En su estudio, analizaron 30 mol\'{e}culas diferentes con valores experimentales de $\mathrm{p}K_{\mathrm{a}}$ reportados en \textit{Handbook of Chemistry} \cite{Lange2005}, encontrando el valor m\'{a}ximo del potencial electrost\'{a}tico sobre la isosuperficie de la densidad electr\'{o}nica a 0.001 au. Es decir, ellos usaron una isosuperficie de densidad y se calcul\'{o} sobre dicha superficie el potencial electrost\'{a}tico, para finalmente obtener el potencial electrost\'{a}tico superficial m\'{a}ximo $V_{S,max}$. Es importante mencionar que el enfoque de Caballero-Garc\'{i}a \textit{et al.} elimin\'{o} la necesidad de calcular la energ\'{i}a libre de solvataci\'{o}n, cuyo procedimiento requiere c\'{a}lculos de alta precisi\'{o}n. Por lo tanto, el modelo presentado por este grupo de investigaci\'{o}n se centr\'{o} en sistemas donde el sitio activo es un grupo hidroxilo, dejando abierta la interrogante sobre su aplicabilidad en bases o sistemas con otros grupos funcionales.
 	
 	Un año despu\'{e}s de la publicaci\'{o}n anterior, Sandoval-Lira \textit{et al.} \cite{bib:sandovallira2020} complementaron el trabajo de 
 	Caballero-Garc\'{i}a \textit{et al.}, al abordar el problema de la basicidad en grupos amino. A diferencia de Caballero-Garc\'{i}a \textit{et al.},
@@ -158,7 +158,7 @@
 	el punto isoel\'{e}ctrico ($pI$) de los amino\'{a}cidos al combinarse los modelos obtenidos para \'{a}cidos carbox\'{i}licos y grupos amino. 
 	Este grupo de investigaci\'{o}n prob\'{o} que la reactividad qu\'{i}mica no solo depende de la mol\'{e}cula analizada, sino también de caracter\'{i}sticas
 	 topol\'{o}gicas espec\'{i}ficas (puntos topol\'{o}gicos) en las isosuperficies de potencial. Este hallazgo fundamenta nuestra propuesta de 
-	 automatizar la localizaci\'{o}n de dichos puntos mediante la exploraci\'{o}n de nuevos descriptores qu\'{i}micos.
+	 automatizar la localizaci\'{o}n de dichos puntos adem\'{a}s de la exploraci\'{o}n de nuevos descriptores qu\'{i}micos.
 	
 	
 	
@@ -181,7 +181,7 @@
 	
 	\subsection{Machine Learning y el Futuro de la Predicci\'{o}n (2024-2026)}
 	
-	Actualmente, existe una transformaci\'{o}n en la predicci\'{o}n del $\mathrm{p}K_{\mathrm{a}}$ impulsada por el \textit{machine learning}. Un ejemplo de lo anterior es el trabajo de Rathi \textit{et al.} \cite{Rathi2020} quienes, demostraron que es posible generar superficies de potencial electrost\'{a}tico de alta calidad mediante Redes Neuronales Convolucionales de Grafos (GCNN) en una fracci\'{o}n del tiempo que requieren los c\'{a}lculos de la DFT. Aunque  su enfoque se dirige hacía el diseño de f\'{a}rmacos, la precisi\'{o}n alcanzada sugiere que los descriptores topol\'{o}gicos que planeamos calcular podr\'{i}an, en el futuro, alimentar modelos de entrenamiento masivo. 
+	Actualmente, existe una transformaci\'{o}n en la predicci\'{o}n del $\mathrm{p}K_{\mathrm{a}}$ impulsada por el \textit{machine learning}. Un ejemplo de lo anterior es el trabajo de Rathi \textit{et al.} \cite{Rathi2020}, quienes demostraron que es posible generar superficies de potencial electrost\'{a}tico de alta calidad mediante Redes Neuronales Convolucionales de Grafos (GCNN) en una fracci\'{o}n del tiempo que requieren los c\'{a}lculos de la DFT. Aunque  su enfoque se dirige hacía el diseño de f\'{a}rmacos, la precisi\'{o}n alcanzada sugiere que los descriptores topol\'{o}gicos que planeamos calcular podr\'{i}an, en el futuro, alimentar modelos de entrenamiento masivo. 
 	
 	Complementario al trabajo anterior, Li \textit{et al.} \cite{Li2024} utilizaron un cribado de alto rendimiento (\textit{High-Throughput Screening}) para predecir la nucleofilicidad de aminas, vinculando directamente c\'{a}lculos de la DFT con modelos \textit{Random Forest}. Este estudio identific\'{o} ``subestructuras cr\'{i}ticas'' que dictan la reactividad en mol\'{e}culas, un concepto que planeamos aplicar al analizar \'{a}cidos organofosforados. 
 	
@@ -298,7 +298,7 @@
 		
 		\item \textbf{Automatizaci\'{o}n y escalabilidad:} Implementaci\'{o}n del entorno en un software propio para optimizar el c\'{a}lculo de isovalores, reduciendo los tiempos de c\'{o}mputo en comparaci\'{o}n con las metodolog\'{i}as tradicionales.
 		
-		\item \textbf{An\'{a}lisis multidimensional de isosuperficies:} Extender el an\'{a}lisis de la densidad electr\'{o}nica convencional hacia descriptores como la Funci\'{o}n de Localizaci\'{o}n Electr\'{o}nica (ELF), Mapeo de Potencial Electrost\'{a}tico Molecular (MEP), Regi\'{o}n de Electrones Lentos (ROSE), Gradiente Reducido de Densidad (RDG), Localizador de Orbitales Localizados (LOL), entre otros,  sobre diversas superficies de contorno.
+		\item \textbf{An\'{a}lisis multidimensional de isosuperficies:} Extender el an\'{a}lisis de la densidad electr\'{o}nica convencional incluyendo algunos (e idealmente todos) de los siguientes descriptores: Funci\'{o}n de Localizaci\'{o}n Electr\'{o}nica (ELF), Potencial Electrost\'{a}tico Molecular (MEP), Regi\'{o}n de Electrones Lentos (ROSE), Gradiente Reducido de Densidad (RDG), Localizador de Orbitales Localizados (LOL), sobre diversas superficies de contorno.
 		
 		\item \textbf{Modelado predictivo de $\mathrm{p}K_{\mathrm{a}}$:} Desarrollar una expresi\'{o}n matem\'{a}tica que se correlacione, donde el $\mathrm{p}K_{\mathrm{a}}$ se defina como una funci\'{o}n dependiente de los descriptores fisicoqu\'{i}micos y otros par\'{a}metros de isovalores seleccionados, v\'{e}ase la ecuaci\'{o}n \ref{eq:pkaiso}.
 		\begin{equation}
@@ -474,12 +474,12 @@
 	
 	En esta etapa, nuestro trabajo se ha centrado en reproducir la metodología y los resultados reportados por Solano-Altamirano \textit{et al.} \cite{Solano2024} empleando \textit{DensToolKit2}. Su investigación implement\'{o} estimadores de $\mathrm{p}K_{\mathrm{a}}$ y $\mathrm{p}K_{\mathrm{b}}$ sobre un conjunto molecular descrito por \cite{Caballero-Garcia2019}, mediante el descriptor $V_{S,\max}$ evaluado sobre una isosuperficie de densidad electrónica $\rho = 0.0120\text{ a.u.}$, empleando estos valores para desarrollar una expresión que se correlaciona linealmente.  Asimismo, aplicando un protocolo análogo al anterior, se calcularon los estimadores basados en $V_{S,\min}$ para  el conjunto reportado por \cite{bib:sandovallira2020} en aminas terciarias, evaluados sobre una isosuperficie de $\rho = 0.0108\text{ a.u.}$
 	
-	De forma paralela y complementaria, hemos trabajado en la selecci\'{o}n y obtenci\'{o}n de bases de datos para la generaci\'{o}n de matrices Z y optimizaci\'{o}n de las geometr\'{i}as, con \'{e}nfasis en mol\'{e}culas derivadas de \'{e}steres reportados por Lazare \textit{et al.}  \cite{Lazare2025} (considerando actualmente 224 mol\'{e}culas).  El flujo de trabajo comienza con la obtención de las estructuras moleculares desde la base de datos  \textit{PubChem}. Con el prop\'{o}sito de estandarizar el an\'{a}lisis del grupo funcional carbonilo, se realizó un reordenamiento topol\'{o}gico de los \'{a}tomos, siguiendo una secuencia espec\'{i}fica, definida por el patr\'{o}n O1, C2, O3, R1 y R2. V\'{e}ase la Figura \ref{fig:methylformate}. El flujo de trabajo descrito anteriormente se observa en la Figura \ref{fig:Potocolo}.
+	De forma paralela y complementaria, hemos trabajado en la selecci\'{o}n y obtenci\'{o}n de bases de datos para la generaci\'{o}n de matrices Z y optimizaci\'{o}n de las geometr\'{i}as, con \'{e}nfasis en mol\'{e}culas derivadas de \'{e}steres reportados por Lazare \textit{et al.}  \cite{Lazare2025} (considerando actualmente 224 mol\'{e}culas).  El flujo de trabajo comienza con la obtención de las estructuras moleculares desde la base de datos  \textit{PubChem}. Con el prop\'{o}sito de estandarizar el an\'{a}lisis del grupo funcional carbonilo, se realizó un reordenamiento de los \'{a}tomos, siguiendo una secuencia espec\'{i}fica, definida por el patr\'{o}n O1, C2, O3, R1 y R2. V\'{e}ase la Figura \ref{fig:methylformate}. El flujo de trabajo descrito anteriormente se observa en la Figura \ref{fig:Potocolo}.
 
 		\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.4\linewidth]{graphs/methylformate}
-		\caption{Esquema de ordenamiento topol\'{o}gico implementado en la matriz Z para los sistemas moleculares bajo estudio: ox\'{i}geno principal (O1), carbono de carbonilo (C2), ox\'{i}geno secundario o adyacente (O3), y sustituyentes (R1 y R2).}
+		\caption{Esquema de ordenamiento implementado en la matriz Z para los sistemas moleculares bajo estudio: ox\'{i}geno principal (O1), carbono de carbonilo (C2), ox\'{i}geno secundario o adyacente (O3), y sustituyentes (R1 y R2).}
 		\label{fig:methylformate}
 	\end{figure}
 
@@ -540,7 +540,7 @@
 					\node (start) [estiloAzul] {1. Selecci\'{o}n de datos \\ Obtenci\'{o}n de estructuras de \'{e}steres en PubChem.};
 					
 					\node (p1) [estiloNaranja, right=of start] 
-					{2. Estandarizaci\'{o}n topol\'{o}gica \\ Reordenamiento at\'{o}mico seg\'{u}n el patron O1, C2, O3, R1 y R2.};
+					{2. Reordenamiento at\'{o}mico \\ Estableciendo el patron O1, C2, O3, R1 y R2.};
 					
 					\node (p2) [estiloTeal, right=of p1] 
 					{3. Generaci\'{o}n de matrices Z \\ Conversi\'{o}n de coordenadas cartesianas a coordenadas internas.};
@@ -572,7 +572,7 @@
 		
 	\clearpage
 	
-	\section{Conclusiones preliminares}
+	\section{Perspectivas de trabajo}
 	
 	La implementaci\'{o}n computacional descrita anteriormente permitir\'{a} establecer un flujo de trabajo sistem\'{a}tico y reproducible para el an\'{a}lisis del grupo carbonilo. A trav\'{e}s de la estandarizaci\'{o}n de las matrices Z y la posterior optimizaci\'{o}n de la geometr\'{i}a al nivel de teor\'{i}a $\omega$B97X-D/cc-pVDZ, se prev\'{e} la obtenci\'{o}n de estructuras moleculares que simulen condiciones fisiol\'{o}gicas o acuosas mediante el modelo CPCM. Adem\'{a}s, la generaci\'{o}n de las funciones de onda extendida constituye la base de este proyecto, pues se espera que dicha informaci\'{o}n permita mapear de forma detallada la densidad electr\'{o}nica de los sistemas estudiados mediante el software propio \textit{DensToolKit2} \cite{Solano2024}.
 		
@@ -585,7 +585,7 @@
 		\centering
 		\footnotesize
 		\setlength{\tabcolsep}{8.0pt}
-		\begin{tabular}{||p{0.5\linewidth}|c|c|c|c|c|c|c|c|}
+		\begin{tabular}{||p{0.6\linewidth}|c|c|c|c|c|c|c|c|}
 			\hline
 			\multirow{2}{*}{\centering\textbf{Actividad}} & \multicolumn{8}{c|}{\textbf{Semestre}}\\
 			& 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8\\\hline\hline
@@ -594,15 +594,15 @@
 			Selecci\'{o}n de sistemas de estudio & x & &&&&&&\\ \hline
 			Selecci\'{o}n de programas de c\'{o}mputo & x & &&&&&&\\ \hline
 			%
-			Curso optativo 2 &  & x&&&&&&\\ \hline
-			C\'{a}lculos principales &x  & &x&x&x&x&&\\ \hline
+			Curso optativo 2 (m\'{e}todos de la qu\'{i}mica cu\'{a}ntica) &  & x&&&&&&\\ \hline
+			C\'{a}lculos principales &x&x&x&x&x&x&&\\ \hline
 			Examen predoctoral &  & &&x&&&&\\ \hline
 			%Escritura de art\'{i}culo &  & &&&x&x&&\\ \hline
 			Env\'{i}o y revisi\'{o}n de art\'{i}culo &  & &&&&x&x&\\ \hline
 			Asistencia a congreso internacional &  & & & &&x&&\\ \hline
 			Escritura de tesis & &&&&&x&x&x \\ \hline
 			%Escritura de segundo art\'{i}culo &&&&&&&x&\\ \hline
-			Env\'{i}o y revisi\'{o}n de segundo art\'{i}culo &  & &&&&&&x\\ \hline
+			Redacc\'{o}n de segundo art\'{i}culo &  & &&&&&&x\\ \hline
 			Presentaci\'{o}n del examen profesional & &&&&&&&x \\
 			\hline
 		\end{tabular}
